@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.5"],\
             ["eslint", "npm:8.19.0"],\
             ["eslint-config-next", "virtual:a982220e22f47569abdc9e6adaf72c8acd7c1cf4849ed76b86e6799ed815dc642609afafe07de689fc9e814d50bf2fb96f7ba117ec45a35dfe7b8f1af43e1905#npm:12.2.0"],\
+            ["husky", "npm:8.0.1"],\
             ["next", "virtual:a982220e22f47569abdc9e6adaf72c8acd7c1cf4849ed76b86e6799ed815dc642609afafe07de689fc9e814d50bf2fb96f7ba117ec45a35dfe7b8f1af43e1905#npm:12.2.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:a982220e22f47569abdc9e6adaf72c8acd7c1cf4849ed76b86e6799ed815dc642609afafe07de689fc9e814d50bf2fb96f7ba117ec45a35dfe7b8f1af43e1905#npm:18.2.0"],\
@@ -1611,6 +1612,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["husky", [\
+        ["npm:8.0.1", {\
+          "packageLocation": "./.yarn/cache/husky-npm-8.0.1-85fede8470-943a73a13d.zip/node_modules/husky/",\
+          "packageDependencies": [\
+            ["husky", "npm:8.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["ignore", [\
         ["npm:5.2.0", {\
           "packageLocation": "./.yarn/cache/ignore-npm-5.2.0-fc4b58a4f3-6b1f926792.zip/node_modules/ignore/",\
@@ -2006,6 +2016,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.5"],\
             ["eslint", "npm:8.19.0"],\
             ["eslint-config-next", "virtual:a982220e22f47569abdc9e6adaf72c8acd7c1cf4849ed76b86e6799ed815dc642609afafe07de689fc9e814d50bf2fb96f7ba117ec45a35dfe7b8f1af43e1905#npm:12.2.0"],\
+            ["husky", "npm:8.0.1"],\
             ["next", "virtual:a982220e22f47569abdc9e6adaf72c8acd7c1cf4849ed76b86e6799ed815dc642609afafe07de689fc9e814d50bf2fb96f7ba117ec45a35dfe7b8f1af43e1905#npm:12.2.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:a982220e22f47569abdc9e6adaf72c8acd7c1cf4849ed76b86e6799ed815dc642609afafe07de689fc9e814d50bf2fb96f7ba117ec45a35dfe7b8f1af43e1905#npm:18.2.0"],\
