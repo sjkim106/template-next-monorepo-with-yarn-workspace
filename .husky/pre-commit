@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo 'Hello Gabia, woof!
+echo 'To-do this line changed to lint'
