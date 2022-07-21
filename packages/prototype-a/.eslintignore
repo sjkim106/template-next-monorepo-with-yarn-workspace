@@ -6,4 +6,3 @@ node_modules
 .pnp.loager.mjs
 !.storybook
 webpack.config.js
-Footer

@@ -1,19 +1,21 @@
 {
-  "name": "monorepo-template",
-  "packageManager": "yarn@3.2.0",
-  "workspaces": [
-    "packages/*"
-  ],
+  "name": "prototype-a",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "lint": "eslint ./packages --ext .ts,.tsx,.js,.jsx --cache",
-    "common-components": "yarn workspace @common/components",
-    "common-styles": "yarn workspace @common/styles",
-    "prototype-a": "yarn workspace prototype-a",
-    "prototype-b": "yarn workspace prototype-b",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "postinstall": "husky install"
   },
+  "packageManager": "yarn@3.2.1",
+  "dependencies": {
+    "next": "12.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
   "devDependencies": {
-    "@emotion/eslint-plugin": "^11.7.0",
     "@types/node": "18.0.1",
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
